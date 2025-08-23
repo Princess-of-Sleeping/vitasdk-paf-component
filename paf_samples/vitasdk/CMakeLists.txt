@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 
 if(NOT DEFINED ENV{PAF_SAMPLE_NAME})
   message(FATAL_ERROR "Please define PAF_SAMPLE_NAME")
